@@ -46,7 +46,7 @@ precmd_functions+=( precmd_vcs_info )
 RPROMPT=\$vcs_info_msg_0_
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr ' 🔥'
-zstyle ':vcs_info:*' stagedstr ' +'
+zstyle ':vcs_info:*' stagedstr ' ❌'
 zstyle ':vcs_info:git:*' formats 'on (%F{green}%b| %u %c)'
 # zstyle ':vcs_info:git:*' formats 'on %F{green}%b'
 
